@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
+    /*   outline-style:solid; */
+
+
+}
+
+#menu-main-container {
+    /*   border: 1px solid white; */
+    height: 100vh;
+    width: 100wh;
+    background-color: #1D1E22;
+    display: flex;
+}
+
+.menu-left-container {
+    /*   border: 1px solid white; */
+    width: 30%;
+    height: 100%;
+    background-color: #111B21
+}
+
+.menu-right-container {
+    /*   border: 1px solid white; */
+    border-bottom: 5px solid #00a884;
+    width: 70%;
+    height: 100%;
+    background-color: #222E35;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-left-center-info {
+    /*    border: 1px solid white; */
+    /*   border-bottom:5px solid #00a884; */
+    width: 100%;
+    height: 80%;
+    /*   background-color:green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu-online-offline-icon {
+    /*   border: 1px solid white; */
+    text-align: center;
+}
+
+.menu-online-offline-icon svg {
+    width: 90%
+}
+
+.menu-title {
+    /*    border: 1px solid white; */
+    font-size: 2rem;
+    margin-top: 10px;
+    font-weight: normal;
+    color: #D1D6D8;
+}
+
+.menu-webapp-info {
+    /*    border: 1px solid white; */
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #86969D;
+}
+
+.menu-encrypted-info {
+    /*   border: 1px solid red; */
+    /*   border-bottom:5px solid #00a884; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    /*   flex-direction:row; */
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu-encrypted-icon {
+    /*   border: 1px solid red; */
+    height: 18%;
+    /*   width:10%; */
+    margin: 3px;
+}
+
+.menu-encrypted-icon svg {
+    color: #86969D;
+}
+
+.menu-encrypted-info-para {
+    /*   border: 1px solid yellow; */
+    /*   height:60%;
+  width:60%; */
+    color: #86969D;
+}
