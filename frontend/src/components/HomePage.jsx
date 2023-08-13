@@ -1,6 +1,7 @@
 import React from 'react'
 import './homepage.css'
 import NavBar from './NavBar';
+import SearchUser from './SearchUser'
 
 function HomePage() {
 
@@ -11,6 +12,8 @@ function HomePage() {
             <div id="menu-main-container">
                 <div className="menu-left-container">
                     <NavBar />
+                    <SearchUser />
+
                 </div>
                 <div className="menu-right-container">
                     <div className="menu-left-center-info">
