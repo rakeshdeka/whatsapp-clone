@@ -2,59 +2,91 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #222E35;
 }
 
 #search-main-container {
-    border: 1px solid white;
+    background-color: #111b21;
+    /*   border: 1px solid white; */
     height: 10vh;
     width: 100%;
     display: flex;
     justify-content: space-around;
     /* align-items: center; */
-
-
 }
 
 .search-inner-container {
-    border: 1px solid white;
-    height: 70%;
-    width: 70%;
+    /*   border: 1px solid white; */
+    height: 90%;
+    width: 88%;
     align-self: center;
     display: flex;
     justify-content: space-around;
-
-
 }
 
-
 .search-icon {
-    border: 1px solid white;
+    /*   border: 1px solid white; */
     height: 80%;
-    width: 30%;
+    width: 10%;
     align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-icon svg {
+    height: 100%;
+    width: 100%;
+    color: #aebac1;
 }
 
 .search-input-box {
-    border: 1px solid white;
+    /*     border: 1px solid white; */
     height: 80%;
-    width: 60%;
+    width: 88%;
     align-self: center;
+}
 
+.search-input-box input {
+    /*    border: 1px solid white; */
+    border: none;
+    height: 100%;
+    width: 99%;
+    align-self: center;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #202c33;
+}
+
+.search-input-box input::placeholder {
+    color: #aebac1;
+}
+
+.search-input-box input:focus {
+    outline: none;
 }
 
 .search-unread-filter-container {
-    border: 1px solid white;
+    /*     border: 1px solid white; */
     height: 70%;
-    width: 25%;
+    width: 10%;
     align-self: center;
     display: flex;
     justify-content: space-around;
 }
 
 .search-unread-filter-icon {
-    border: 1px solid white;
+    /*     border: 1px solid white; */
     height: 80%;
     width: 80%;
     align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-unread-filter-icon svg {
+    height: 100%;
+    width: 100%;
+    color: #aebac1;
 }

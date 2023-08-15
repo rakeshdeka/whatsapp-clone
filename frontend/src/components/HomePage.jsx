@@ -2,6 +2,8 @@ import React from 'react'
 import './homepage.css'
 import NavBar from './NavBar';
 import SearchUser from './SearchUser'
+import ChatList from './ChatList'
+import ChatPage from './chatBox/ChatPage'
 
 function HomePage() {
 
@@ -13,9 +15,13 @@ function HomePage() {
                 <div className="menu-left-container">
                     <NavBar />
                     <SearchUser />
+                    <ChatList />
+
 
                 </div>
+
                 <div className="menu-right-container">
+                    {/* <ChatPage /> */}
                     <div className="menu-left-center-info">
                         <div className="menu-online-offline-icon">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 303 172" width="360"
