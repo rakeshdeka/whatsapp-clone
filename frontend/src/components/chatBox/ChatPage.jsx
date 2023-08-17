@@ -1,10 +1,15 @@
 import './chatPage.css'
+import ChatBoxNav from './ChatBoxNav';
+import UserChatInputBox from './userChatInputBox';
 
 function ChatPage() {
     return (
         <>
-            <div id="chatpage-right-container">
+            <ChatBoxNav />
+            <div class="leftSide-container">
+
             </div>
+            {/* <UserChatInputBox /> */}
         </>
     )
 }

@@ -1,0 +1,73 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
+}
+
+#chatbox-nav-container {
+    /*   border: 1px solid white; */
+    height: 10vh;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #202C33;
+}
+
+.chatbox-nav-profile-icon {
+    /*   border: 1px solid white; */
+    height: 80%;
+    width: 10%;
+    align-self: center;
+}
+
+.chatbox-nav-profile-icon svg {
+    width: 100%;
+    height: 100%
+}
+
+.chatbox-nav-user-name {
+    /*     border: 1px solid white; */
+    height: 80%;
+    width: 60%;
+    align-self: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    /*   padding-left:5px */
+    /*   font-size:16px; */
+    font-weight: 500;
+}
+
+.chatbox-nav-msg-search-icon {
+    /*    border: 1px solid white; */
+    height: 80%;
+    width: 10%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatbox-nav-msg-search-icon svg {
+    width: 80%;
+    height: 80%;
+    color: #AEBAC1;
+}
+
+.chatbox-nav-menu-icon {
+    /*    border: 1px solid white; */
+    height: 80%;
+    width: 10%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatbox-nav-menu-icon svg {
+    width: 80%;
+    height: 80%;
+    color: #AEBAC1;
+}
